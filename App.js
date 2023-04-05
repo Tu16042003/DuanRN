@@ -12,7 +12,8 @@ const App = () => {
 <Stack.Navigator initialRouteName='Bai1' screenOptions={{ headerShown: false }}>
       <Stack.Screen name='Bai1' component={Bai1} />
       <Stack.Screen name='Bai2' component={Bai2} />
-    </Stack.Navigator></NavigationContainer>
+    </Stack.Navigator>
+    </NavigationContainer>
   );
 };
 export default App;
